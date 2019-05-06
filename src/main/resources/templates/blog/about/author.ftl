@@ -96,10 +96,6 @@
                         <p class="aboutinfo-location"><i class="fa fa-location-arrow"></i>&nbsp;${site.address}</p>
                         <hr />
                         <div class="aboutinfo-contact">
-                            <a target="_blank" title="QQ交流" href="http://wpa.qq.com/msgrd?v=3&uin=115784675&site=QQ交流&menu=yes"><i class="fa fa-qq fa-2x"></i></a>
-                            <a target="_blank" title="给我写信" href="mailto:1115784675@qq.com"><i class="fa fa-envelope fa-2x"></i></a>
-                            <a target="_blank" title="新浪微博" href="https://weibo.com/u/2173866382"><i class="fa fa-weibo fa-2x"></i></a>
-                            <a target="_blank" title="码云" href="https://gitee.com/wanglingxiao/mysiteforme"><i class="fa fa-git fa-2x"></i></a>
                         </div>
                     </div>
                     <fieldset class="layui-elem-field layui-field-title">

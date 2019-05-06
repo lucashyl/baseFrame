@@ -4,7 +4,7 @@
     <!--<include resource="org/springframework/boot/logging/logback/base.xml" />-->
 
     <!--设置系统日志目录-->
-    <property name="APP_DIR" value="mysiteforme" />
+    <property name="APP_DIR" value="lucas" />
 
     <!-- 彩色日志 -->
     <!-- 彩色日志依赖的渲染类 -->
@@ -178,7 +178,7 @@
 
     <logger name="org.springframework.web" level="info"/>
     <logger name="org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor" level="INFO"/>
-    <logger name="com.mysiteforme.admin" level="debug"/>
+    <logger name="com.lucas.admin" level="debug"/>
 
     <!--开发环境:打印控制台-->
     <springProfile name="dev">

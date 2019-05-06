@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.mysiteforme.admin.dao.MenuDao" >
+<mapper namespace="com.lucas.admin.dao.MenuDao" >
     <!-- 这儿定义一个resultMap -->
 
-    <resultMap type="com.mysiteforme.admin.entity.Menu" id="getSelf">
+    <resultMap type="com.lucas.admin.entity.Menu" id="getSelf">
         <id property="id" column="id"/>
         <result property="name" column="name"/>
         <result property="parentId" column="parentId"/>
@@ -63,7 +63,7 @@
     </select>
 
 
-    <select id="showAllMenusList" resultType="com.mysiteforme.admin.entity.Menu"  parameterType="java.util.Map">
+    <select id="showAllMenusList" resultType="com.lucas.admin.entity.Menu" parameterType="java.util.Map">
         SELECT
         m.id,
         m.name,
@@ -100,7 +100,7 @@
         </if>
     </select>
 
-    <resultMap id="showMenuMap" type="com.mysiteforme.admin.entity.VO.ShowMenu">
+    <resultMap id="showMenuMap" type="com.lucas.admin.entity.VO.ShowMenu">
         <result property="id"       column="id" />
         <result property="pid"      column="pid"/>
         <result property="title"    column="title"/>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.mysiteforme.admin.dao.RoleDao" >
+<mapper namespace="com.lucas.admin.dao.RoleDao" >
     <!-- 这儿定义一个resultMap -->
-    <resultMap type="com.mysiteforme.admin.entity.Role" id="RoleMap">
+    <resultMap type="com.lucas.admin.entity.Role" id="RoleMap">
         <id property="id" column="id"/>
         <result property="name" column="name"/>
         <result property="remarks" column="remarks"/>
         <result property="delFlag" column="del_flag"/>
-        <collection property="menuSet"  ofType="com.mysiteforme.admin.entity.Menu">
+        <collection property="menuSet"  ofType="com.lucas.admin.entity.Menu">
             <result property="id" column="menuSet.id"/>
             <result property="name" column="menuSet.name"/>
             <result property="permission" column="menuSet.permission"/>

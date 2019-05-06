@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.mysiteforme.admin.dao.BlogArticleDao" >
+<mapper namespace="com.lucas.admin.dao.BlogArticleDao" >
     <sql id="select">
         a.id,
         a.title,
@@ -28,7 +28,7 @@
     </sql>
 
     <!-- 这儿定义一个resultMap -->
-    <resultMap id="baseMap" type="com.mysiteforme.admin.entity.BlogArticle">
+    <resultMap id="baseMap" type="com.lucas.admin.entity.BlogArticle">
         <id column="id" property="id" />
         <result column="title" property="title" />
         <result column="subTitle" property="subTitle" />
@@ -54,14 +54,14 @@
         <result property="commentCount" column="commentCount"/>
     </resultMap>
 
-    <resultMap id="indexMap" extends="baseMap" type="com.mysiteforme.admin.entity.BlogArticle">
-        <association property="blogChannel" column="channelId" javaType="com.mysiteforme.admin.entity.BlogChannel">
+    <resultMap id="indexMap" extends="baseMap" type="com.lucas.admin.entity.BlogArticle">
+        <association property="blogChannel" column="channelId" javaType="com.lucas.admin.entity.BlogChannel">
             <id property="id" column="blogChannel.id"/>
             <result property="name" column="blogChannel.name"/>
             <result property="sort" column="blogChannel.sort"/>
             <result property="href" column="blogChannel.href"/>
         </association>
-        <collection property="blogTags" ofType="com.mysiteforme.admin.entity.BlogTags">
+        <collection property="blogTags" ofType="com.lucas.admin.entity.BlogTags">
             <id property="id" column="blogTags.id"/>
             <result property="name" column="blogTags.name" />
         </collection>
@@ -99,7 +99,7 @@
     </select>
 
 
-    <select id="selectDetailArticle" resultType="com.mysiteforme.admin.entity.BlogArticle" parameterType="java.util.Map">
+    <select id="selectDetailArticle" resultType="com.lucas.admin.entity.BlogArticle" parameterType="java.util.Map">
         select
         <include refid="select"/>,
         c.id            AS "blogChannel.id",
@@ -172,7 +172,7 @@
         delete from blog_article_tags where article_id = #{articleId}
     </select>
 
-    <select id="selectNewCommentArticle" resultType="com.mysiteforme.admin.entity.BlogArticle" parameterType="java.lang.Integer">
+    <select id="selectNewCommentArticle" resultType="com.lucas.admin.entity.BlogArticle" parameterType="java.lang.Integer">
         select
         <include refid="select"/>,
         c.create_date as "newestCommentTime"
@@ -186,7 +186,7 @@
     </select>
 
 
-    <select id="selectLikeSameWithTags" resultType="com.mysiteforme.admin.entity.BlogArticle">
+    <select id="selectLikeSameWithTags" resultType="com.lucas.admin.entity.BlogArticle">
       SELECT * from blog_article a RIGHT JOIN
         (select * from blog_article_tags where tags_id in ( select tags_id from blog_article_tags where article_id = #{articleId} ) GROUP BY article_id) at on at.article_id = a.id
       RIGHT JOIN blog_channel c on c.id = a.channel_id

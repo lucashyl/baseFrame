@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.mysiteforme.admin.dao.BlogChannelDao" >
+<mapper namespace="com.lucas.admin.dao.BlogChannelDao" >
     <!-- 这儿定义一个resultMap -->
 
-    <resultMap type="com.mysiteforme.admin.entity.VO.ZtreeVO" id="getSelf">
+    <resultMap type="com.lucas.admin.entity.VO.ZtreeVO" id="getSelf">
         <id property="id" column="id"/>
         <result property="pid" column="pid"/>
         <result property="name" column="name"/>
@@ -31,7 +31,7 @@
         order by sort desc
     </select>
 
-    <resultMap id="getChannelSelf" type="com.mysiteforme.admin.entity.BlogChannel">
+    <resultMap id="getChannelSelf" type="com.lucas.admin.entity.BlogChannel">
         <id property="id" column="id"/>
         <result property="name" column="name"/>
         <result property="parentId" column="parentId"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.mysiteforme.admin.dao.BlogTagsDao" >
+<mapper namespace="com.lucas.admin.dao.BlogTagsDao" >
 
-    <select id="getTagsByChannelId" resultType="com.mysiteforme.admin.entity.BlogTags"  parameterType="java.lang.Long">
+    <select id="getTagsByChannelId" resultType="com.lucas.admin.entity.BlogTags" parameterType="java.lang.Long">
         SELECT
         t.id,
         t.name,
@@ -21,7 +21,7 @@
     </select>
 
 
-    <select id="getTagsByArticleId" resultType="com.mysiteforme.admin.entity.BlogTags">
+    <select id="getTagsByArticleId" resultType="com.lucas.admin.entity.BlogTags">
         SELECT
         t.id,
         t.name,
@@ -39,7 +39,7 @@
       delete from blog_article_tags where tags_id = #{tagId}
     </select>
 
-    <select id="selectTagsPage" resultType="com.mysiteforme.admin.entity.BlogTags">
+    <select id="selectTagsPage" resultType="com.lucas.admin.entity.BlogTags">
         SELECT
         t.id,
         t.name,

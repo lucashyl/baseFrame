@@ -1,7 +1,366 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61626aca-e00b-472f-a68b-d2f1235f98ca" name="Default" comment="" />
+    <list default="true" id="61626aca-e00b-472f-a68b-d2f1235f98ca" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/BlogArticleServiceImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/MysiteformeApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/annotation/SysLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/aspect/WebLogAspect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/base/BaseController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/base/BaseEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/base/BlogHandlerInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/base/CaptchaFormAuthenticationFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/base/DataEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/base/MyBatisDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/base/MyHandlerInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/base/MySysUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/base/TreeEntity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/config/DruidDBConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/config/FastJson2JsonRedisSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/config/FreemarkerConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/config/MybatisPlusConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/config/QuartzConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/config/RedisCacheConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/config/ShiroConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/config/SysMetaObjectHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/config/WebMvcConfigurer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/BlogArticleController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/BlogChannelController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/BlogCommentController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/BlogTagsController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/DruidController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/MenuComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/QuartzTaskController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/QuartzTaskLogController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/system/DictController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/system/FileController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/system/LogController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/system/MenuController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/system/RescourceController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/system/RoleController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/system/SiteController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/system/TableController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/system/UserConteroller.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/controller/web/BlogPageController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/BlogArticleDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/BlogChannelDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/BlogCommentDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/BlogTagsDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/DictDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/GroupDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/LogDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/MenuDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/QuartzTaskDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/QuartzTaskLogDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/RescourceDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/RoleDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/SiteDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/TableDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/UploadInfoDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/dao/UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/BlogArticle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/BlogChannel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/BlogComment.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/BlogTags.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/Dict.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/Group.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/Log.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/Menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/QuartzTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/QuartzTaskLog.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/Rescource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/Role.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/Site.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/UploadInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/VO/ShowMenu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/VO/TableField.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/VO/TableVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/VO/TreeMenu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/entity/VO/ZtreeVO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/exception/GlobalExceptionHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/exception/MyException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/ArticleClickTempletModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/ArticleDirective.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/BaseDirective.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/ChannelDirective.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/CommentNumberTempletModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/IndexArticleDirective.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/LookLikeArticlesTempletModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/NewCommentArticleTempletModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/ParentChannelListDirective.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/SysUserTempletModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/SystemDirective.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/freemark/TagsTempletModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/lucene/LuceneSearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/realm/AuthRealm$ShiroUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/realm/AuthRealm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/redis/CacheUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/redis/RedisCacheManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/redis/RedisObjectSerializer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/redis/RedisSessionDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/redis/ShiroCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/BlogArticleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/BlogChannelService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/BlogCommentService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/BlogTagsService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/DictService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/GroupService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/LogService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/MenuService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/QuartzTaskLogService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/QuartzTaskService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/RescourceService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/RoleService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/SiteService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/TableService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/UploadInfoService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/UploadService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/BlogArticleServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/BlogChannelServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/BlogCommentServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/BlogTagsServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/DictServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/GroupServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/LocalUploadServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/LogServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/MenuServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/OssUploadServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/QiniuUploadServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/QuartzTaskLogServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/QuartzTaskServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/RescourceServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/RoleServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/SiteServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/TableServiceImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/TableServiceImpl$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/TableServiceImpl$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/TableServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/UploadInfoServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/service/impl/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/CreateTableFiles$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/CreateTableFiles$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/CreateTableFiles$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/CreateTableFiles$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/CreateTableFiles$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/CreateTableFiles.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/DigestUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/Digests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/Encodes.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/Exceptions.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/GenEntityMySql$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/GenEntityMySql.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/LayerData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/MyCompare.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/QETag.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/QiniuFileUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/RestResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/SessionUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/SpringContextHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/SpringUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/ToolUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/Underline2Camel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/VerifyCodeUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/ZipUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/quartz/ScheduleJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/quartz/ScheduleRunnable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/quartz/ScheduleUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/mysiteforme/admin/util/quartz/task/SystemTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mysiteforme/admin/MysiteformeApplicationTests.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/mysiteforme/admin/TestZipUtil.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/MysiteformeApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/BaseFrameApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/annotation/SysLog.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/annotation/SysLog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/aspect/WebLogAspect.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/aspect/WebLogAspect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/BaseController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/BaseController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/BaseEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/BaseEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/BlogHandlerInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/BlogHandlerInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/CaptchaFormAuthenticationFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/CaptchaFormAuthenticationFilter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/DataEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/DataEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/MyBatisDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/MyBatisDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/MyHandlerInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/MyHandlerInterceptor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/MySysUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/MySysUser.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/TreeEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/TreeEntity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/DruidDBConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/DruidDBConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/FastJson2JsonRedisSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/FastJson2JsonRedisSerializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/FreemarkerConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/FreemarkerConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/MybatisPlusConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/MybatisPlusConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/QuartzConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/QuartzConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/RedisCacheConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/RedisCacheConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/ShiroConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/ShiroConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/SysMetaObjectHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/SysMetaObjectHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/WebMvcConfigurer.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/WebMvcConfigurer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/BlogArticleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/BlogArticleController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/BlogChannelController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/BlogChannelController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/BlogCommentController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/BlogCommentController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/BlogTagsController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/BlogTagsController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/DruidController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/DruidController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/LoginController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/QuartzTaskController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/QuartzTaskController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/QuartzTaskLogController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/QuartzTaskLogController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/DictController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/DictController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/FileController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/FileController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/LogController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/LogController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/MenuController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/MenuController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/RescourceController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/RescourceController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/RoleController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/RoleController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/SiteController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/SiteController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/TableController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/TableController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/UserConteroller.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/UserConteroller.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/web/BlogPageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/web/BlogPageController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/BlogArticleDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/BlogArticleDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/BlogChannelDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/BlogChannelDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/BlogCommentDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/BlogCommentDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/BlogTagsDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/BlogTagsDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/DictDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/DictDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/GroupDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/GroupDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/LogDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/LogDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/MenuDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/MenuDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/QuartzTaskDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/QuartzTaskDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/QuartzTaskLogDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/QuartzTaskLogDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/RescourceDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/RescourceDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/RoleDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/RoleDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/SiteDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/SiteDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/TableDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/TableDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/UploadInfoDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/UploadInfoDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/UserDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/BlogArticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/BlogArticle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/BlogChannel.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/BlogChannel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/BlogComment.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/BlogComment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/BlogTags.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/BlogTags.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/Dict.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/Dict.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/Group.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/Group.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/Log.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/Log.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/Menu.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/Menu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/QuartzTask.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/QuartzTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/QuartzTaskLog.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/QuartzTaskLog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/Rescource.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/Rescource.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/Role.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/Role.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/Site.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/Site.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/UploadInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/UploadInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/User.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/User.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/VO/ShowMenu.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/VO/ShowMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/VO/TableField.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/VO/TableField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/VO/TableVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/VO/TableVO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/VO/TreeMenu.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/VO/TreeMenu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/entity/VO/ZtreeVO.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/VO/ZtreeVO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/exception/GlobalExceptionHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/exception/GlobalExceptionHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/exception/MyException.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/exception/MyException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/ArticleClickTempletModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/ArticleClickTempletModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/ArticleDirective.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/ArticleDirective.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/BaseDirective.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/BaseDirective.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/ChannelDirective.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/ChannelDirective.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/CommentNumberTempletModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/CommentNumberTempletModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/IndexArticleDirective.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/IndexArticleDirective.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/LookLikeArticlesTempletModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/LookLikeArticlesTempletModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/NewCommentArticleTempletModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/NewCommentArticleTempletModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/ParentChannelListDirective.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/ParentChannelListDirective.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/SysUserTempletModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/SysUserTempletModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/SystemDirective.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/SystemDirective.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/freemark/TagsTempletModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/freemark/TagsTempletModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/lucene/LuceneSearch.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/lucene/LuceneSearch.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/realm/AuthRealm.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/realm/AuthRealm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/CacheUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/redis/CacheUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/RedisCacheManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/redis/RedisCacheManager.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/RedisObjectSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/redis/RedisObjectSerializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/RedisSessionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/redis/RedisSessionDAO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/ShiroCache.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/redis/ShiroCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/BlogArticleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/BlogArticleService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/BlogChannelService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/BlogChannelService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/BlogCommentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/BlogCommentService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/BlogTagsService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/BlogTagsService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/DictService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/DictService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/GroupService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/GroupService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/LogService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/LogService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/MenuService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/MenuService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/QuartzTaskLogService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/QuartzTaskLogService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/QuartzTaskService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/QuartzTaskService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/RescourceService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/RescourceService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/RoleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/RoleService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/SiteService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/SiteService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/TableService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/TableService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/UploadInfoService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/UploadInfoService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/UploadService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/UploadService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/UserService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/BlogChannelServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/BlogChannelServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/BlogCommentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/BlogCommentServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/BlogTagsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/BlogTagsServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/DictServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/DictServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/GroupServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/GroupServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/LocalUploadServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/LocalUploadServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/LogServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/LogServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/MenuServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/MenuServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/OssUploadServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/OssUploadServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/QiniuUploadServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/QiniuUploadServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/QuartzTaskLogServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/QuartzTaskLogServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/QuartzTaskServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/QuartzTaskServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/RescourceServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/RescourceServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/RoleServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/RoleServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/SiteServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/SiteServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/TableServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/TableServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/UploadInfoServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/UploadInfoServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/UserServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/Constants.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/CreateTableFiles.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/CreateTableFiles.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/DigestUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/DigestUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/Digests.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/Digests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/Encodes.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/Encodes.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/Exceptions.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/Exceptions.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/GenEntityMySql.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/GenEntityMySql.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/LayerData.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/LayerData.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/MyCompare.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/MyCompare.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/QETag.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/QETag.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/QiniuFileUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/QiniuFileUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/RestResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/RestResponse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/SessionUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/SessionUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/SpringContextHolder.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/SpringContextHolder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/SpringUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/SpringUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/ToolUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/ToolUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/Underline2Camel.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/Underline2Camel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/VerifyCodeUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/VerifyCodeUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/ZipUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/ZipUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/quartz/ScheduleJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/quartz/ScheduleJob.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/quartz/ScheduleRunnable.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/quartz/ScheduleRunnable.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/quartz/ScheduleUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/quartz/ScheduleUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/quartz/task/SystemTask.java" afterPath="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/quartz/task/SystemTask.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mysiteforme/admin/MysiteformeApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/lucas/admin/BaseFrameApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/mysiteforme/admin/TestZipUtil.java" afterPath="$PROJECT_DIR$/src/test/java/com/lucas/admin/TestZipUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/log/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogArticleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogArticleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogChannelMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogChannelMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogCommentMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogCommentMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/BlogTagsMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BlogTagsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/LogMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/LogMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/TableDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TableDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/sql/mysiteforme.sql" afterPath="$PROJECT_DIR$/src/main/resources/sql/mysiteforme.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/blog/about/author.ftl" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog/about/author.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/vm/controller.java.vm" afterPath="$PROJECT_DIR$/src/main/resources/templates/vm/controller.java.vm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log/logback.xml" afterPath="$PROJECT_DIR$/target/classes/log/logback.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/BlogArticleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/BlogArticleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/BlogChannelMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/BlogChannelMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/BlogCommentMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/BlogCommentMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/BlogTagsMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/BlogTagsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/LogMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/LogMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/MenuMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/MenuMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/RoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/TableDao.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/TableDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/sql/mysiteforme.sql" afterPath="$PROJECT_DIR$/target/classes/sql/mysiteforme.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/blog/about/author.ftl" afterPath="$PROJECT_DIR$/target/classes/templates/blog/about/author.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/vm/controller.java.vm" afterPath="$PROJECT_DIR$/target/classes/templates/vm/controller.java.vm" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,127 +378,125 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MySysUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/MySysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <marker date="1556422197419" expanded="true" signature="133:140" ph="/**...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application-dev.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="391">
+              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <file leaf-file-name="BaseFrameApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/BaseFrameApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="77" column="11" lean-forward="true" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="207">
+              <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
               <folding>
-                <marker date="1556444469417" expanded="true" signature="498:701" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="716:1538" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="1555:1694" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="1570:1677" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="1711:8159" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="1919:2041" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="2057:2175" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="2190:2305" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="2320:2435" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="2450:2559" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="2575:2694" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="2709:2848" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="2864:2986" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="3022:3139" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="3155:3301" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="3317:3458" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="3474:3622" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="3638:3784" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="3800:3933" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="3949:4078" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="4094:4248" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="4263:4410" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="4425:4576" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="4592:4735" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="4751:4927" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="4943:5080" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="5110:5381" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="5244:5365" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="5260:5348" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="5419:5547" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="5584:5716" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="5731:5863" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="5879:6012" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="6028:6163" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="6179:6316" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="6368:6497" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="6531:6655" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="6685:6796" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="6825:6944" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="6979:7110" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="7139:7270" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="7366:7503" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="7546:7663" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="7700:7972" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="7826:7956" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="7842:7939" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="8001:8142" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="8169:8829" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="8214:8585" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="8600:8819" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="8612:8806" ph="..." />
-                <marker date="1556444469417" expanded="true" signature="8749:8793" ph="..." />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/LoginController.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="87" column="54" lean-forward="false" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+            <state relative-caret-position="-184">
+              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/annotation/SysLog.java">
+      <file leaf-file-name="SiteDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/SiteDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state relative-caret-position="230">
+              <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebLogAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/aspect/WebLogAspect.java">
+      <file leaf-file-name="SysMetaObjectHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/SysMetaObjectHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="244">
+              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuartzTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/QuartzTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuartzTaskServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/QuartzTaskServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="40" column="54" lean-forward="false" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScheduleUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/util/quartz/ScheduleUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuartzConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/QuartzConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TableDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <marker date="1557127712390" expanded="true" signature="297:392" ph="select count... tables" />
+                <marker date="1557127712390" expanded="true" signature="526:658" ph="select count... tables" />
+                <marker date="1557127712390" expanded="true" signature="777:951" ph="select count... columns" />
+                <marker date="1557127712390" expanded="true" signature="1070:1322" ph="select TABLE... TABLES" />
+                <marker date="1557127712390" expanded="true" signature="1440:1848" ph="select TABLE... TABLES" />
+                <marker date="1557127712390" expanded="true" signature="2691:3957" ph="select c.COL... Columns" />
+                <marker date="1557127712390" expanded="true" signature="3204:3269" ph="select * fro... sys_dict" />
+                <marker date="1557127712390" expanded="true" signature="4715:5617" ph="select t.TAB... TABLES" />
+                <marker date="1557127712390" expanded="true" signature="5396:5461" ph="select * fro... sys_dict" />
+                <marker date="1557127712390" expanded="true" signature="5724:7364" ph="CREATE TABLE... ${name}" />
+                <marker date="1557127712390" expanded="true" signature="7464:7633" ph="alter table ${tableName}... " />
+                <marker date="1557127712390" expanded="true" signature="7752:7923" ph="alter table ${tableName}... " />
+                <marker date="1557127712390" expanded="true" signature="8043:8225" ph="alter table ${tableName}... " />
+                <marker date="1557127712390" expanded="true" signature="8333:8377" ph="ALTER table ${tableName}" />
+                <marker date="1557127712390" expanded="true" signature="8477:8500" ph="drop table $... " />
+                <marker date="1557127712390" expanded="true" signature="8606:8643" ph="alter table ${oldname}... " />
+                <marker date="1557127712390" expanded="true" signature="8735:8780" ph="alter table ${tableName}... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,24 +512,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>icon</find>
-      <find>iconfo</find>
-      <find>sanjiao1</find>
-      <find>duihua</find>
-      <find>FontAwesome</find>
-      <find>@font-face</find>
-      <find>xe68e</find>
-      <find>#xe63a</find>
-      <find>liaotianduihuaimgoutong</find>
-      <find>erji-dingshirenwu</find>
-      <find>layui.css</find>
-      <find>layui-icon</find>
-      <find>site-doc-icon</find>
-      <find>layui</find>
-      <find>font-family</find>
-      <find>layuiicon</find>
-      <find>getMenus</find>
-      <find>fontclass</find>
       <find>treelist</find>
       <find>treeGird</find>
       <find>static.mysiteforme.com</find>
@@ -185,10 +524,31 @@
       <find>log_error</find>
       <find>redis</find>
       <find>LOG_PATH</find>
+      <find>l</find>
+      <find>luca</find>
+      <find>luc</find>
+      <find>lu</find>
+      <find>MySiteForMeScheduler</find>
+      <find>baseMapper</find>
+      <find>siteService</find>
+      <find>SiteDao</find>
+      <find>updateByPrimaryKey</find>
+      <find>http://mybatis.org</find>
+      <find>classpath:mybatis</find>
+      <find>classpath:</find>
+      <find>Mapper</find>
+      <find>SysMetaObjectHandler</find>
+      <find>com.mysiteforme.admin.entity.QuartzTask</find>
+      <find>QuartzTask</find>
+      <find>username</find>
+      <find>mysiteforme</find>
     </findStrings>
     <replaceStrings>
       <replace>layuiicon</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\work_soft\idea\workSpace\baseFrame\src\test\java\com\mysiteforme</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -201,14 +561,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/Exceptions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/LayerData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/MyCompare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/QETag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/SessionUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/SpringContextHolder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/SpringUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/Underline2Camel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/VerifyCodeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/ZipUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/system/rescource/list.ftl" />
@@ -230,7 +582,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/blogChannel/list.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/system/menu/add.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/static/layui/layui-treetable/layui.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/static/layui/layui.tree.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layui.tree.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/layui/lay/layui.tree.js" />
@@ -250,8 +601,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/log/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/RedisCacheConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/MysiteformeApplication.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lucas/admin/MysiteformeApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lucas/admin/config/FreemarkerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lucas/admin/base/BaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/TableController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lucas/admin/util/CreateTableFiles.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lucas/admin/BaseFrameApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/SiteDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -269,21 +629,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="mysiteforme" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Dependencies" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="mysiteforme" />
+          <option name="myItemId" value="baseFrame" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -313,7 +659,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -337,18 +682,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,11 +724,46 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="baseFrame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,7 +800,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MysiteformeApplication">
+  <component name="RunManager" selected="Spring Boot.BaseFrameApplication">
+    <configuration default="false" name="BaseFrameApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lucas.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lucas.admin.BaseFrameApplication" />
+      <module name="demo" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -842,16 +1222,14 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="MysiteformeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mysiteforme.admin.MysiteformeApplication" />
-      <module name="demo" />
-      <envs />
-      <method />
-    </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.MysiteformeApplication" />
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.BaseFrameApplication" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.BaseFrameApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -885,11 +1263,12 @@
       <workItem from="1557109390731" duration="5632000" />
       <workItem from="1557125863672" duration="188000" />
       <workItem from="1557126353323" duration="122000" />
+      <workItem from="1557127439471" duration="7710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134030000" />
+    <option name="totallyTimeSpent" value="141740000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -917,7 +1296,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33144796" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35067874" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3133484" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -927,10 +1306,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18552037" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17274678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -938,7 +1318,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -949,7 +1328,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -958,225 +1337,266 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/system/menu/list.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/system/TableController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="49" lean-forward="false" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/layui-treetable/layui/layui.tree.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/layui-treetable/layui/layui.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/css/modules/laydate/default/laydate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="67" lean-forward="false" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/css/iconfont.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="72" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1058">
-          <caret line="46" column="427" lean-forward="false" selection-start-line="46" selection-start-column="427" selection-end-line="46" selection-end-column="467" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/images/dong.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="60" lean-forward="false" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/MenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/layer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="1" column="554" lean-forward="true" selection-start-line="1" selection-start-column="554" selection-end-line="1" selection-end-column="554" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/layui/lay/modules/tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/system/menu/test.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="114" column="29" lean-forward="false" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/WebMvcConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="45">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/BlogArticleController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1771">
-          <caret line="79" column="62" lean-forward="false" selection-start-line="79" selection-start-column="62" selection-end-line="79" selection-end-column="62" />
+        <state relative-caret-position="251">
+          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/QuartzTaskController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/util/CreateTableFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="58" lean-forward="false" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        <state relative-caret-position="207">
+          <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/FileController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="170" column="16" lean-forward="false" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="16" />
+        <state relative-caret-position="207">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/exception/GlobalExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-959">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="7475">
+          <caret line="325" column="0" lean-forward="true" selection-start-line="325" selection-start-column="0" selection-end-line="325" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/ToolUtil.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="76" column="19" lean-forward="false" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/base/MyHandlerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/system/DictController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/BlogArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1058">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/BlogTagsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="14" column="59" lean-forward="true" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/BlogCommentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/GroupDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/Site.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/annotation/SysLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/aspect/WebLogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1600">
+          <caret line="43" column="56" lean-forward="true" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/DruidDBConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/FastJson2JsonRedisSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/BlogTagsController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/FreemarkerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1318">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/lucene/LuceneSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/crazycake/shiro-redis/2.4.2.1-RELEASE/shiro-redis-2.4.2.1-RELEASE.jar!/org/crazycake/shiro/RedisSessionDAO.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/crazycake/shiro-redis/2.4.2.1-RELEASE/shiro-redis-2.4.2.1-RELEASE.jar!/org/crazycake/shiro/RedisManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/crazycake/shiro-redis/2.4.2.1-RELEASE/shiro-redis-2.4.2.1-RELEASE.jar!/org/crazycake/shiro/RedisCacheManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="59" column="11" lean-forward="false" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/2.1.2.RELEASE/spring-data-redis-2.1.2.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/service/impl/BlogArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/util/quartz/task/SystemTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="25" column="42" lean-forward="false" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/MysiteformeApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="141">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus/2.1.4/mybatis-plus-2.1.4.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="334" column="13" lean-forward="false" selection-start-line="334" selection-start-column="13" selection-end-line="334" selection-end-column="13" />
+          <folding>
+            <element signature="e#12171#12172#0" expanded="true" />
+            <element signature="e#12250#12251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/service/SiteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/WebMvcConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="87" column="63" lean-forward="true" selection-start-line="87" selection-start-column="63" selection-end-line="87" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1557127711529" expanded="true" signature="2011:2062" ph="delete from " />
+            <marker date="1557127711529" expanded="true" signature="2149:2200" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogChannelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1557127709124" expanded="true" signature="659:1079" ph="select id, n... blog_channel" />
+            <marker date="1557127709124" expanded="true" signature="2570:3529" ph="select id, n... blog_channel" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogCommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1557127712662" expanded="true" signature="2509:3426" ph="select , rep... " />
+            <marker date="1557127712662" expanded="true" signature="3526:3871" ph="select COUNT... blog_comment" />
+            <marker date="1557127712662" expanded="true" signature="4251:4463" ph="select from blog_comment" />
+            <marker date="1557127712662" expanded="true" signature="4553:5177" ph="select , u.i... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/LogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#530#534#0" expanded="false" />
+            <marker date="1557127711434" expanded="true" signature="272:605" ph="select count... sys_log" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding>
+            <marker date="1557127707453" expanded="true" signature="1475:2352" ph="select id, n... sys_menu" />
+            <marker date="1557127707453" expanded="true" signature="3017:3062" ph="select * fro... sys_menu" />
+            <marker date="1557127707453" expanded="true" signature="4181:5039" ph="SELECT disti... *" />
+            <marker date="1557127707453" expanded="true" signature="4423:4468" ph="select * fro... sys_menu" />
           </folding>
         </state>
       </provider>
@@ -1184,199 +1604,197 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="77" column="24" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="24" />
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.3.2/shiro-core-1.3.2.jar!/org/apache/shiro/subject/Subject.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="184">
+          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/RedisCacheConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1984#2013#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/config/ShiroConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="174" column="23" lean-forward="true" selection-start-line="174" selection-start-column="23" selection-end-line="174" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/CacheUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/RedisObjectSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/RedisSessionDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogTagsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="32" column="55" lean-forward="false" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/ShiroCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/redis/RedisCacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="72" lean-forward="true" selection-start-line="17" selection-start-column="72" selection-end-line="17" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/annotation/SysLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/base/MySysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <caret line="1" column="106" lean-forward="false" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="106" />
           <folding>
-            <marker date="1556422197419" expanded="true" signature="133:140" ph="/**...*/" />
+            <marker date="1557127711032" expanded="true" signature="325:749" ph="SELECT t.id,... blog_tags" />
+            <marker date="1557127711032" expanded="true" signature="856:1137" ph="SELECT t.id,... blog_tags" />
+            <marker date="1557127711032" expanded="true" signature="1202:1256" ph="delete from " />
+            <marker date="1557127711032" expanded="true" signature="1617:1676" ph="select count... blog_article_tags" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/aspect/WebLogAspect.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/base/BlogHandlerInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="174">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mysiteforme/admin/controller/LoginController.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatisplus-spring-boot-starter/1.0.5/mybatisplus-spring-boot-starter-1.0.5.jar!/com/baomidou/mybatisplus/spring/boot/starter/MybatisPlusAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="87" column="54" lean-forward="false" selection-start-line="87" selection-start-column="54" selection-end-line="87" selection-end-column="54" />
+        <state relative-caret-position="174">
+          <caret line="81" column="29" lean-forward="false" selection-start-line="81" selection-start-column="29" selection-end-line="81" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/SiteServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1556444469417" expanded="true" signature="498:701" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="716:1538" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="1555:1694" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="1570:1677" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="1711:8159" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="1919:2041" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="2057:2175" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="2190:2305" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="2320:2435" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="2450:2559" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="2575:2694" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="2709:2848" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="2864:2986" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="3022:3139" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="3155:3301" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="3317:3458" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="3474:3622" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="3638:3784" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="3800:3933" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="3949:4078" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="4094:4248" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="4263:4410" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="4425:4576" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="4592:4735" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="4751:4927" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="4943:5080" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="5110:5381" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="5244:5365" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="5260:5348" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="5419:5547" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="5584:5716" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="5731:5863" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="5879:6012" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="6028:6163" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="6179:6316" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="6368:6497" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="6531:6655" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="6685:6796" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="6825:6944" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="6979:7110" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="7139:7270" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="7366:7503" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="7546:7663" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="7700:7972" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="7826:7956" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="7842:7939" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="8001:8142" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="8169:8829" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="8214:8585" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="8600:8819" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="8612:8806" ph="..." />
-            <marker date="1556444469417" expanded="true" signature="8749:8793" ph="..." />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="30" column="60" lean-forward="true" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6895">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/dao/SiteDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <caret line="11" column="51" lean-forward="false" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatisplus-spring-boot-starter/1.0.5/mybatisplus-spring-boot-starter-1.0.5.jar!/com/baomidou/mybatisplus/spring/boot/starter/GlobalConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/entity/QuartzTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/Scheduler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="114" column="12" lean-forward="false" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/SysMetaObjectHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/TriggerKey.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#560#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/utils/Key.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="77" column="11" lean-forward="true" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+        <state relative-caret-position="-184">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/BaseFrameApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/TableDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <marker date="1557127712390" expanded="true" signature="297:392" ph="select count... tables" />
+            <marker date="1557127712390" expanded="true" signature="526:658" ph="select count... tables" />
+            <marker date="1557127712390" expanded="true" signature="777:951" ph="select count... columns" />
+            <marker date="1557127712390" expanded="true" signature="1070:1322" ph="select TABLE... TABLES" />
+            <marker date="1557127712390" expanded="true" signature="1440:1848" ph="select TABLE... TABLES" />
+            <marker date="1557127712390" expanded="true" signature="2691:3957" ph="select c.COL... Columns" />
+            <marker date="1557127712390" expanded="true" signature="3204:3269" ph="select * fro... sys_dict" />
+            <marker date="1557127712390" expanded="true" signature="4715:5617" ph="select t.TAB... TABLES" />
+            <marker date="1557127712390" expanded="true" signature="5396:5461" ph="select * fro... sys_dict" />
+            <marker date="1557127712390" expanded="true" signature="5724:7364" ph="CREATE TABLE... ${name}" />
+            <marker date="1557127712390" expanded="true" signature="7464:7633" ph="alter table ${tableName}... " />
+            <marker date="1557127712390" expanded="true" signature="7752:7923" ph="alter table ${tableName}... " />
+            <marker date="1557127712390" expanded="true" signature="8043:8225" ph="alter table ${tableName}... " />
+            <marker date="1557127712390" expanded="true" signature="8333:8377" ph="ALTER table ${tableName}" />
+            <marker date="1557127712390" expanded="true" signature="8477:8500" ph="drop table $... " />
+            <marker date="1557127712390" expanded="true" signature="8606:8643" ph="alter table ${oldname}... " />
+            <marker date="1557127712390" expanded="true" signature="8735:8780" ph="alter table ${tableName}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/service/impl/QuartzTaskServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="40" column="54" lean-forward="false" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/util/quartz/ScheduleUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lucas/admin/config/QuartzConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
           <folding />
         </state>
       </provider>

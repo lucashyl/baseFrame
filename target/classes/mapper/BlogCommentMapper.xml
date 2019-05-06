@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.mysiteforme.admin.dao.BlogCommentDao" >
+<mapper namespace="com.lucas.admin.dao.BlogCommentDao" >
 
     <sql id="commentField">
         c.id,
@@ -23,7 +23,7 @@
         c.del_flag        as "delFlag"
     </sql>
 
-    <resultMap id="baseMap" type="com.mysiteforme.admin.entity.BlogComment">
+    <resultMap id="baseMap" type="com.lucas.admin.entity.BlogComment">
         <id column="id" property="id"/>
         <result column="content" property="content"/>
         <result column="ip" property="ip"/>
@@ -42,8 +42,8 @@
         <result column="delFlag" property="delFlag"/>
     </resultMap>
 
-    <resultMap id="detailComment" extends="baseMap" type="com.mysiteforme.admin.entity.BlogComment">
-        <collection property="replayList" ofType="com.mysiteforme.admin.entity.BlogComment">
+    <resultMap id="detailComment" extends="baseMap" type="com.lucas.admin.entity.BlogComment">
+        <collection property="replayList" ofType="com.lucas.admin.entity.BlogComment">
             <id property="id" column="replayList.id" />
             <result property="content" column="replayList.content" />
             <result property="createDate" column="replayList.createDate" />
@@ -93,11 +93,11 @@
     </select>
 
 
-    <resultMap id="plusMap" type="com.mysiteforme.admin.entity.BlogComment" extends="baseMap">
-        <collection property="replayList" column="id" ofType="com.mysiteforme.admin.entity.BlogComment" select="getCommentByReplyId" notNullColumn="replyId" />
+    <resultMap id="plusMap" type="com.lucas.admin.entity.BlogComment" extends="baseMap">
+        <collection property="replayList" column="id" ofType="com.lucas.admin.entity.BlogComment" select="getCommentByReplyId" notNullColumn="replyId" />
     </resultMap>
     
-    <select id="getCommentByReplyId" resultType="com.mysiteforme.admin.entity.BlogComment">
+    <select id="getCommentByReplyId" resultType="com.lucas.admin.entity.BlogComment">
             select
             <include refid="commentField" />
             from blog_comment c
