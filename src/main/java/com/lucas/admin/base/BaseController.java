@@ -1,7 +1,7 @@
 package com.lucas.admin.base;
 
 import com.lucas.admin.entity.User;
-import com.lucas.admin.realm.AuthRealm;
+import com.lucas.admin.realm.AuthRealm.ShiroUser;
 import com.lucas.admin.service.*;
 import org.apache.shiro.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class BaseController {
 	
 	public User getCurrentUser() {
-		AuthRealm.ShiroUser shiroUser = (AuthRealm.ShiroUser) SecurityUtils.getSubject().getPrincipal();
+		ShiroUser shiroUser = (ShiroUser) SecurityUtils.getSubject().getPrincipal();
 		if(shiroUser == null) {
 			return null;
 		}

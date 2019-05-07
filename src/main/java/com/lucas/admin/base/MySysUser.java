@@ -1,6 +1,6 @@
 package com.lucas.admin.base;
 
-import com.lucas.admin.realm.AuthRealm;
+import com.lucas.admin.realm.AuthRealm.ShiroUser;
 import org.apache.shiro.SecurityUtils;
 
 /**
@@ -26,8 +26,8 @@ public class MySysUser {
         return ShiroUser().getNickName();
     }
 
-    public static AuthRealm.ShiroUser ShiroUser() {
-        AuthRealm.ShiroUser user = (AuthRealm.ShiroUser) SecurityUtils.getSubject().getPrincipal();
+    public static ShiroUser ShiroUser() {
+        ShiroUser user = (ShiroUser) SecurityUtils.getSubject().getPrincipal();
         return user;
     }
 }
