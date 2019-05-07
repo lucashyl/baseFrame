@@ -20,6 +20,7 @@ import java.util.List;
 public class SystemTask {
     private static Log log = LogFactory.get();
 
+
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
 
