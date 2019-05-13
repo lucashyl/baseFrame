@@ -1,10 +1,9 @@
 package com.lucas.admin.config;
 
+
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
-import com.lucas.admin.base.BlogHandlerInterceptor;
-import com.lucas.admin.base.MyHandlerInterceptor;
 import org.springframework.boot.web.servlet.MultipartConfigFactory;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -13,9 +12,8 @@ import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.StringHttpMessageConverter;
 import org.springframework.web.servlet.DispatcherServlet;
-import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import javax.servlet.MultipartConfigElement;
 import java.nio.charset.Charset;
@@ -26,13 +24,15 @@ import java.util.List;
  * todo:springMVC配置文件
  */
 @Configuration
-public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
+public class WebMvcConfig implements WebMvcConfigurer {
 
     //访问静态资源
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
-        super.addResourceHandlers(registry);
+        // 解决 SWAGGER 404报错
+        registry.addResourceHandler("/swagger-ui.html").addResourceLocations("classpath:/META-INF/resources/");
+        registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars/");
     }
 
     @Bean
@@ -49,7 +49,6 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
      * */
     @Override
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
-        super.configureMessageConverters(converters);
         List<MediaType> supportedMediaTypes = new ArrayList<>();
         supportedMediaTypes.add(MediaType.APPLICATION_JSON_UTF8);
         FastJsonHttpMessageConverter fastJsonHttpMessageConverter = new FastJsonHttpMessageConverter();
@@ -84,13 +83,13 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
         return converter;
     }
 
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new MyHandlerInterceptor())
-                .addPathPatterns("/**")
-                .excludePathPatterns("/login","/login/main","/logout","/genCaptcha","/static/**","/showBlog/**");
-        registry.addInterceptor(new BlogHandlerInterceptor())
-                .addPathPatterns("/showBlog/**");
-        super.addInterceptors(registry);
-    }
+//    @Override
+//    public void addInterceptors(InterceptorRegistry registry) {
+//        registry.addInterceptor(new MyHandlerInterceptor())
+//                .addPathPatterns("/**")
+//                .excludePathPatterns("/login","/login/main","/logout","/genCaptcha","/static/**","/front/**","/swagger-ui.html");
+//        registry.addInterceptor(new FrontHandlerInterceptor())
+//                .addPathPatterns("/front/**")
+//                .excludePathPatterns("/front/member/userLogin");
+//    }
 }

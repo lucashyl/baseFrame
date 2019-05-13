@@ -3,6 +3,7 @@ package com.lucas.admin.base;
 import com.lucas.admin.entity.User;
 import com.lucas.admin.realm.AuthRealm.ShiroUser;
 import com.lucas.admin.service.*;
+import com.lucas.shop.service.MemberService;
 import org.apache.shiro.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -61,4 +62,9 @@ public class BaseController {
 
 	@Autowired
 	protected UploadInfoService uploadInfoService;
+
+
+	//商城
+	@Autowired
+	protected MemberService memberService;
 }

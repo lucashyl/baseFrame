@@ -16,8 +16,10 @@ import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.security.MessageDigest;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Random;
 
 public class ToolUtil {
 
@@ -272,6 +274,115 @@ public class ToolUtil {
 		finalMap.put("isp",isp);
 		return finalMap;
 	}
+
+	/**
+	 * 对字符串md5加密
+	 *
+	 * @param str
+	 * @return
+	 */
+	public static String getMD5(String str) {
+		try {
+			// 生成一个MD5加密计算摘要
+			MessageDigest md = MessageDigest.getInstance("MD5");
+			// 计算md5函数
+			md.update(str.getBytes("UTF-8"));
+			byte b[] = md.digest();
+			int i;
+			StringBuffer buf = new StringBuffer("");
+			for (int offset = 0; offset < b.length; offset++) {
+				i = b[offset];
+				if (i < 0)
+					i += 256;
+				if (i < 16)
+					buf.append("0");
+				buf.append(Integer.toHexString(i));
+			}
+			return buf.toString();
+			// md5_16= buf.toString().substring(8, 24);
+//	          return new BigInteger(1, md.digest()).toString(16);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
+	/**
+	 * 生成随机数 小写字母+数字
+	 * @param length
+	 * @return
+	 */
+	public static String getCode(int length){
+		String val = "";
+		Random random = new Random();
+		//参数length，表示生成几位随机数
+		for (int i = 0; i < length; i++) {
+			//随机数由0-9，a-z,A-Z组成，数字占10个，字母占52个，数字、字母占比1:5（标准的应该是10:52）
+			//random.nextInt(6) 0-5中6个数取一个
+			String charOrNum = (random.nextInt(6)+6) % 6 >=1 ? "char" : "num";
+			//输出字母还是数字
+			if ("char".equalsIgnoreCase(charOrNum)) {
+				//输出是大写字母还是小写字母，输出比例为1:1 //char（65）-char(90) 为大写字母A-Z；char(97)-char(122)为小写字母a-z
+				int temp = random.nextInt(2) % 2 == 0 ? 97 : 65;
+				val += (char) (random.nextInt(26) + 97);//暂时不需要大写
+			} else if ("num".equalsIgnoreCase(charOrNum)) {
+				val += String.valueOf(random.nextInt(10));
+			}
+		}
+		return val;
+	}
+
+	/**
+	 * 随机生成数字
+	 * @param length 位数
+	 * @return
+	 */
+	public static int numCode(int length){
+		String val = "";
+		Random random = new Random();
+		for (int i = 0; i < length; i++) {
+			val += String.valueOf(random.nextInt(9)+1);
+		}
+		return Integer.parseInt(val);
+	}
+
+	/**
+	 * 根据间距验证字符串，interval为0验证相同字符串，为1验证123/abc，为2验证eca.
+	 * @param str
+	 * @param interval
+	 * @return
+	 */
+	public static boolean continuous(String str, int interval) {
+		if (str != null && str.length() > 1 ) {
+			//第一位和第二位相减的结果
+			int result = str.charAt(0) - str.charAt(1);
+			int k =1;
+			//差值是否是间距
+			if (result == interval || result == -interval) {
+				for (int i = 1; i < str.length(); i++) {
+					//最后一位
+					if (i == str.length() - 1) {
+						continue;
+					}
+					//相减的结果是否和result相同 不同则不连续
+					if ((str.charAt(i) - str.charAt(i + 1)) != result) {
+						return false;
+					}
+					//判断连续三位相同
+					k++;
+					if(k >=2){
+						return true;
+					}
+				}
+			} else {
+				return false;
+			}
+			return true;
+		} else {
+			return false;
+		}
+	}
+
 
 	public static void main(String args[]) throws Exception {
 		//long t1 = System.currentTimeMillis();

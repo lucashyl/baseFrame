@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>baseFrame</artifactId>
+	<artifactId>base_frmae</artifactId>
 	<version>1</version>
 	<packaging>jar</packaging>
 
-	<name>baseFrame</name>
+	<name>base_frmae</name>
 	<description>this project for myself</description>
 
 	<parent>
@@ -33,7 +33,7 @@
 		<fastjson.version>1.2.41</fastjson.version>
 		<jackson.version>2.9.5</jackson.version>
 		<druid.version>1.1.16</druid.version>
-		<guava.version>17.0</guava.version>
+		<guava.version>20.0</guava.version>
 		<quartz.version>2.3.0</quartz.version>
 		<skip>true</skip>
 	</properties>
@@ -90,6 +90,10 @@
 			<artifactId>spring-boot-starter-freemarker</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-websocket</artifactId>
+		</dependency>
 
 
 		<!--下面是自己引入的架包-->
@@ -297,13 +301,34 @@
 			</exclusions>
 		</dependency>
 
+		<!-- 图片服务器上传 -->
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>1.19.4</version>
+		</dependency>
+
+		<!--整合swagger-->
+		<dependency>
+			<groupId>com.spring4all</groupId>
+			<artifactId>swagger-spring-boot-starter</artifactId>
+			<version>1.8.0.RELEASE</version>
+		</dependency>
+
+		<!--jwt-->
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+
 		<!--热部署-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
 		</dependency>
-	</dependencies>
+    </dependencies>
 
 	<build>
 		<!--配置打包时字体文件不被maven拷贝，导致字体文件破坏-->

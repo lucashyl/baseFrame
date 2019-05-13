@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lucas.shop.dao.MemberDao" >
+
+    <select id="selectMemberList" resultType="java.util.Map">
+        select * from shop_member
+        <where>
+            <if test="key !=null and key !=''">
+                 phone =#{key} OR id = #{key}
+            </if>
+        </where>
+         order by create_time desc
+    </select>
+
+    <select id="queryMemberExist" resultType="com.lucas.shop.entity.ShopMember">
+      select * from shop_member
+      <where>
+          <if test="id !=null and id !=''"> and id =#{id}</if>
+          <if test="inviteCode !=null and inviteCode !=''"> and invite_code =#{inviteCode}</if>
+          <if test="phone !=null and phone !=''"> and phone =#{phone}</if>
+      </where>
+    </select>
+
+    <update id="updateMember">
+        update shop_member
+        <trim suffixOverrides="," prefix="set">
+            <if test=" nickName !=null and nickName !=''"> nick_name = #{nickName},</if>
+            <if test=" phone !=null and phone !=''"> phone = #{phone},</if>
+            <if test=" status !=null and status !=''"> status = #{status},</if>
+            <if test=" trueName !=null and trueName !=''"> true_name = #{trueName},</if>
+            <if test=" idCard !=null and idCard !=''"> id_card = #{idCard},</if>
+            <if test=" password !=null and password !=''"> password = #{password},</if>
+            <if test=" icon !=null and icon !=''"> icon = #{icon},</if>
+            <if test=" vx !=null and vx !=''"> vx = #{vx},</if>
+            <if test=" aliAccount !=null and aliAccount !=''"> ali_account = #{aliAccount},</if>
+        </trim>
+        where id =#{id}
+    </update>
+
+    <delete id="deleteMember">
+        delete from shop_member where id IN
+        <foreach collection="list" item="value" open="(" close=")" separator=",">
+            #{value}
+        </foreach>
+    </delete>
+
+    <select id="selectShopConfig" resultType="java.util.Map">
+        select * from shop_config
+    </select>
+</mapper>

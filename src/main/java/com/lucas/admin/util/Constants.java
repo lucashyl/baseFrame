@@ -42,4 +42,23 @@ public class Constants {
 	 */
 	public static final Integer COMMENT_TYPE_LEVING_A_MESSAGE = 2;
 
+
+	public final static String CONTEXT_USER_ID="contextUserId";
+	public final static String CONTEXT_NAME="contextName";
+	public final static String JWT_PRIVATE_KEY ="shop";
+	public final static String RENEWAL_TIME =  "renewalTime";
+	public final static String TOKEN = "token";
+
+	public final static int LOGIN_EXPIRE_TIME_JWT = 60*60*1000; //登录缓存JWT时间 毫秒值,
+
+	public final static int LOGIN_EXPIRE_TIME_REDIS = 60*60; //登录缓存redis时间 秒,
+
+	public final static int REDIS_TIME_OUT_MS = 1000;//redis 分布式锁获取超时时间 毫秒
+
+	public final static int REDIS_LOCK_EXPIRE = 5000;//redis 分布式锁过期时间  毫秒
+
+	public final static int REDIS_LOCK = 10*1000; //redis锁时间
+
+	public final static int REDIS_LOGIN_VALIDATE_CODE_TIME = 5*60 ; //手机验证码时间, 秒
+
 }
