@@ -52,10 +52,10 @@
 .layui-nav-tree .layui-nav-child dd.layui-this a:hover{ background-color:#009688; }
 
 /*右侧body*/
-#top_tabs_box{ padding-right:138px; height:40px; border-bottom:1px solid #e2e2e2; }
+#top_tabs_box{  height:100%; border-bottom:1px solid #e2e2e2; }
 #top_tabs{ position: absolute; border-bottom:none;}
 /*多窗口页面操作下拉*/
-.closeBox{ position:absolute; right:0; background-color:#fff !important; color:#000; border-left:1px solid #e2e2e2; border-bottom:1px solid #e2e2e2; }
+.closeBox{ position:absolute; right:0; background-color:#fff !important; color:#000; border-left:1px solid #e2e2e2; }
 .closeBox .layui-nav-item{ line-height:40px; }
 .closeBox .layui-nav-item a,.closeBox .layui-nav-item a:hover{ color:#000; }
 .closeBox .layui-nav-more{ top:17px; }
@@ -66,7 +66,7 @@
 
 .layui-body{overflow:hidden; border-top:5px solid #1AA094;border-left:2px solid #1AA094;}
 .layui-tab-content{ height:100%; padding:0; }
-.layui-tab-item{ position: absolute; top: 41px; bottom:0; left: 0; right: 0; padding: 0; margin: 0; -webkit-overflow-scrolling:touch; overflow:auto;}
+.layui-tab-item{ position: relative;width: 100%;height: calc(100% - 60px); top: 41px; bottom:0; left: 0; right: 0; padding: 0; margin: 0; -webkit-overflow-scrolling:touch; overflow:auto;}
 .layui-tab-title .layui-this{ background-color:#1AA094; color:#fff; }
 .layui-tab-title .layui-this:after{ border:none; }
 .layui-tab-title li cite{ font-style: normal; padding-left:5px; }

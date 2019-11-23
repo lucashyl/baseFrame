@@ -1,3 +1,8 @@
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
 form input.layui-input[disabled]{ background:#f2f2f2; color:#595963!important; }
 .user_left{ width:45%; float: left; margin:20px 0 0 5%; }
 .user_right{ width:18%; float: left; margin:20px 0 0 5%; text-align: center; }
@@ -11,7 +16,6 @@ form input.layui-input[disabled]{ background:#f2f2f2; color:#595963!important; }
 
 /*修改密码*/
 .changePwd{ width:30%; margin:3% 0 0 5%; }
-
 
 /*适配*/
 @media screen and (max-width:1050px){

@@ -1,7 +1,4 @@
 /*
-	@Author: 请叫我马哥
-	@Time: 2017-04
-	@Tittle: tab
 	@Description: 点击对应按钮添加新窗口
 */
 var tabFilter,menu=[],liIndex,curNav,delMenu;
@@ -93,9 +90,13 @@ layui.define(["layer","jquery","element"],function(exports){
 				tabIdIndex++;
 				title += '<cite>'+_this.find("cite").text()+'</cite>';
 				title += '<i class="layui-icon layui-unselect layui-tab-close" data-id="'+tabIdIndex+'">&#x1006;</i>';
+				var iframe ="<iframe src='"+_this.attr("data-url")+"' data-id='"+tabIdIndex+"' scrolling='no'></iframe>";
+				if(_this.attr("data-url")=="/admin/system/menu/list"){
+                    iframe ="<iframe src='"+_this.attr("data-url")+"' data-id='"+tabIdIndex+"'></iframe>";
+				}
 				element.tabAdd(tabFilter, {
 			        title : title,
-			        content :"<iframe src='"+_this.attr("data-url")+"' data-id='"+tabIdIndex+"'></iframe>",
+			        content : iframe,
 			        id : new Date().getTime()
 			    });
 				//当前窗口内容

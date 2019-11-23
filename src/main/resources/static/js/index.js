@@ -256,7 +256,7 @@ layui.use(['bodyTab','form','element','layer','jquery'],function(){
 	// });
 
 	//刷新后还原打开的窗口
-	if(window.sessionStorage.getItem("menu") != null){
+	/*if(window.sessionStorage.getItem("menu") != null){
 		menu = JSON.parse(window.sessionStorage.getItem("menu"));
 		curmenu = window.sessionStorage.getItem("curmenu");
 		var openTitle = '';
@@ -289,7 +289,7 @@ layui.use(['bodyTab','form','element','layer','jquery'],function(){
 		}
 		//渲染顶部窗口
 		tab.tabMove();
-	}
+	}*/
 
 	//刷新当前
 	$(".refresh").on("click",function(){  //此处添加禁止连续点击刷新一是为了降低服务器压力，另外一个就是为了防止超快点击造成chrome本身的一些js文件的报错(不过貌似这个问题还是存在，不过概率小了很多)
@@ -372,18 +372,3 @@ function myaddTab(_this){
     }
     tab.tabAdd(_this);
 }
-
-//捐赠弹窗
-function donation(){
-	layer.tab({
-		area : ['260px', '367px'],
-		tab : [{
-			title : "微信",
-			content : "<div style='padding:30px;overflow:hidden;background:#d2d0d0;'><img src='images/wechat.jpg'></div>"
-		},{
-			title : "支付宝",
-			content : "<div style='padding:30px;overflow:hidden;background:#d2d0d0;'><img src='images/alipay.jpg'></div>"
-		}]
-	})
-}
-
