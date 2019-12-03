@@ -184,6 +184,7 @@ public class MemberServiceImpl extends ServiceImpl<MemberDao,ShopMember> impleme
         mapParm.put("phone",phone);
         ShopMember shopMember = memberDao.queryMemberExist(mapParm);
         String redisId = shopMember.getId()+":login";
+
         if(redisService.hasKey(redisId)){//删除以前的redis数据
             String tokenOld = redisService.get(redisId);
             redisService.del(tokenOld);

@@ -19,7 +19,7 @@ spring:
 #        min-idle: 5       # 连接池中的最小空闲连接
   # 数据源配置
   datasource:
-    url: jdbc:mysql://localhost:3306/mysiteforme?useUnicode=true&characterEncoding=utf8&useSSL=false&tinyInt1isBit=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/two?useUnicode=true&characterEncoding=utf8&useSSL=false&tinyInt1isBit=true&serverTimezone=UTC
     username: root
     password: 123456
 
