@@ -24,10 +24,10 @@
         <div class="layui-form-item">
             <input class="layui-input" name="password" value="" placeholder="请输入密码" lay-verify="required" type="password" autocomplete="off">
         </div>
-        <div class="layui-form-item form_code">
+  <#--      <div class="layui-form-item form_code">
             <input class="layui-input" name="code" placeholder="验证码" lay-verify="required" type="text" autocomplete="off">
             <div class="code"><img src="${base}/genCaptcha" width="116" height="36" id="mycode"></div>
-        </div>
+        </div>-->
         <div class="layui-form-item">
             <input type="checkbox" name="rememberMe"  lay-skin="primary"  title="记住帐号?">
         </div>
@@ -67,10 +67,10 @@
             }
         });
 
-        $("#mycode").on('click',function(){
-            var t = Math.random();
-            $("#mycode")[0].src="${base}/genCaptcha?t= "+t;
-        });
+        <#--$("#mycode").on('click',function(){-->
+            <#--var t = Math.random();-->
+            <#--$("#mycode")[0].src="${base}/genCaptcha?t= "+t;-->
+        <#--});-->
 
         form.on('submit(login)', function(data) {
             var loadIndex = layer.load(2, {

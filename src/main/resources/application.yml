@@ -34,7 +34,7 @@ spring:
       cache: false #禁用模板引擎缓存
   #连接池配置
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     druid:
       validationQuery: SELECT 1
       initialSize: 10
