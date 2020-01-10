@@ -65,9 +65,9 @@ public class LoginController extends BaseController {
 		if(StringUtils.isBlank(rememberMe)){
 			return RestResponse.failure("记住我不能为空");
 		}
-		if(StringUtils.isBlank(code)){
-			return  RestResponse.failure("验证码不能为空");
-		}
+//		if(StringUtils.isBlank(code)){
+//			return  RestResponse.failure("验证码不能为空");
+//		}
 		Map<String,Object> map = Maps.newHashMap();
 		String error = null;
 		HttpSession session = request.getSession();
@@ -78,9 +78,9 @@ public class LoginController extends BaseController {
 		if(StringUtils.isBlank(trueCode)){
 			return RestResponse.failure("验证码超时");
 		}
-		if(StringUtils.isBlank(code) || !trueCode.toLowerCase().equals(code.toLowerCase())){
-			error = "验证码错误";
-		}else {
+//		if(StringUtils.isBlank(code) || !trueCode.toLowerCase().equals(code.toLowerCase())){
+//			error = "验证码错误";
+//		}else {
 			/*就是代表当前的用户。*/
 			Subject user = SecurityUtils.getSubject();
 			UsernamePasswordToken token = new UsernamePasswordToken(username,password,Boolean.valueOf(rememberMe));
@@ -104,7 +104,7 @@ public class LoginController extends BaseController {
 			} catch (UnauthorizedException e) {
 				error = "您没有得到相应的授权！";
 			}
-		}
+//		}
 		if(StringUtils.isBlank(error)){
 			return RestResponse.success("登录成功").setData(map);
 		}else{

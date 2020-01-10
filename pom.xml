@@ -323,11 +323,11 @@
 		</dependency>
 
 		<!--热部署-->
-		<dependency>
+	<!--	<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
-		</dependency>
+		</dependency>-->
     </dependencies>
 
 	<build>
@@ -348,17 +348,17 @@
 				</includes>
 			</resource>
 		</resources>-->
-
+<!--
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!--热部署-->
+				&lt;!&ndash;热部署&ndash;&gt;
 				<configuration>
 					<fork>true</fork>
 				</configuration>
 			</plugin>
-		</plugins>
+		</plugins>-->
 	</build>
 
 

@@ -67,7 +67,7 @@
                 last: "尾页", //显示尾页
                 limits:[3,10, 20, 30]
             },
-            width: $(parent.window).width()-223,
+//            width: $(parent.window).width()-223,
             cols: [[
                 {type:'checkbox'},
                 {field:'id',  title: '账号'},
