@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>base_frmae</artifactId>
+	<artifactId>base_frame</artifactId>
 	<version>1</version>
 	<packaging>jar</packaging>
 
-	<name>base_frmae</name>
+	<name>base_frame</name>
 	<description>this project for myself</description>
 
 	<parent>
