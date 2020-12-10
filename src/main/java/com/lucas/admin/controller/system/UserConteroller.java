@@ -64,6 +64,7 @@ public class UserConteroller extends BaseController{
 
     @GetMapping("add")
     public String add(Model model){
+
         List<Role> roleList = roleService.selectAll();
         model.addAttribute("roleList",roleList);
         return "admin/system/user/add";
@@ -83,11 +84,11 @@ public class UserConteroller extends BaseController{
         if(userService.userCount(user.getLoginName())>0){
             return RestResponse.failure("登录名称已经存在");
         }
-        if(StringUtils.isNotBlank(user.getEmail())){
-            if(userService.userCount(user.getEmail())>0){
-                return RestResponse.failure("该邮箱已被使用");
-            }
-        }
+//        if(StringUtils.isNotBlank(user.getEmail())){
+//            if(userService.userCount(user.getEmail())>0){
+//                return RestResponse.failure("该邮箱已被使用");
+//            }
+//        }
         if(StringUtils.isNoneBlank(user.getTel())){
             if(userService.userCount(user.getTel())>0){
                 return RestResponse.failure("该手机号已被绑定");
