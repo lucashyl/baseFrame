@@ -71,12 +71,6 @@
                 <input type="text" class="layui-input" name="vx" value="${member.vx}" maxlength="20"  placeholder="请输入微信">
             </div>
         </div>
-        <div class="layui-inline">
-            <label class="layui-form-label">支付宝</label>
-            <div class="layui-input-block">
-                <input type="text" class="layui-input" name="aliAccount" value="${member.aliAccount}" maxlength="20"  placeholder="请输入支付宝">
-            </div>
-        </div>
     </div>
     <div class="layui-form-item">
         <div class="layui-inline">

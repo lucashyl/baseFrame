@@ -12,13 +12,13 @@
 </head>
 <body class="childrenBody">
 <fieldset class="layui-elem-field">
-    <legend>会员检索</legend>
     <div class="layui-field-box">
     <form class="layui-form">
         <div class="layui-inline" style="width: 15%">
             <input type="text" value="" name="s_key" placeholder="可以输入账号/手机号" class="layui-input search_input">
         </div>
         <div class="layui-inline">
+
             <a class="layui-btn" lay-submit="" lay-filter="searchForm">查询</a>
         </div>
         <div class="layui-inline">
@@ -44,6 +44,7 @@
         <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
         <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
     </script>
+
 </div>
 <div id="page"></div>
 <script type="text/javascript" src="${base}/static/layui/layui.js"></script>
