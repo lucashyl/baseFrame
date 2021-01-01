@@ -35,64 +35,6 @@
     <div id="container" style="height: 500px"></div>
     <script type="text/javascript" src="${base}/static/js/jquery.min.js"></script>
     <script type="text/javascript" src="${base}/static/js/echarts.min.js"></script>
-    <script type="text/javascript">
-        var dom = document.getElementById("container");
-        var myChart = echarts.init(dom);
-        var dateArray = [];
-        function getDay(day){
-            var today = new Date();
-
-            var targetday_milliseconds=today.getTime() + 1000*60*60*24*day;
-
-            today.setTime(targetday_milliseconds); //注意，这行是关键代码
-
-            var tYear = today.getFullYear();
-            var tMonth = today.getMonth();
-            var tDate = today.getDate();
-            tMonth = doHandleMonth(tMonth + 1);
-            tDate = doHandleMonth(tDate);
-            return tYear+"-"+tMonth+"-"+tDate;
-        }
-        function doHandleMonth(month){
-            var m = month;
-            if(month.toString().length === 1){
-                m = "0" + month;
-            }
-            return m;
-        }
-        for(i=-14; i<=0;i++){
-            dateArray.push(getDay(i));
-        }
-        $.get('${base}/admin/system/log/pvs').done(function (res) {
-            myChart.setOption({
-                tooltip : {
-                    show: true,
-                    trigger: 'axis',
-                    axisPointer : {            // 坐标轴指示器，坐标轴触发有效
-                        type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
-                    }
-                },
-                xAxis: {
-                    type: 'category',
-                    data: dateArray
-                },
-                yAxis: {
-                    type: 'value'
-                },
-                series: [{
-                    data: res.data,
-                    type: 'bar',
-                    name: '日流量',
-                    markPoint : {
-                        data : [
-                            {type : 'max', name: '最大值'},
-                            {type : 'min', name: '最小值'}
-                        ]
-                    }
-                }]
-            });
-        });
-    </script>
 </div>
 <div class="row">
     <div class="sysNotice col">
