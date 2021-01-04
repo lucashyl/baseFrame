@@ -115,10 +115,10 @@ public class BackMemberController extends BaseController{
     @SysLog("删除商城会员")
     public RestResponse delete(@RequestBody List<Long> ids){
 
-        String result = memberService.deleteMember(ids);
-        if(!"OK".equals(result)){
-            return RestResponse.failure(result);
-        }
+//        String result = memberService.deleteMember(ids);
+//        if(!"OK".equals(result)){
+//            return RestResponse.failure(result);
+//        }
         return RestResponse.success();
     }
 }

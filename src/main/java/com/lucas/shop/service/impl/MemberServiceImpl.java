@@ -115,7 +115,7 @@ public class MemberServiceImpl extends ServiceImpl<MemberDao,ShopMember> impleme
      * @return
      */
     public  String deleteMember(List<Long> ids){
-        memberDao.deleteMember(ids);
+//        memberDao.deleteMember(ids);
         return "OK";
     }
 
