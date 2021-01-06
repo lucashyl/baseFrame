@@ -89,9 +89,9 @@ public class BackMemberController extends BaseController{
     public String edit(Long id,Model model){
         ShopMember shopMember = memberService.selectById(id);
         Map<String,Object> sysConfigMap = memberService.selectShopConfig();
-        shopMember.setPassword("");
-        shopMember.setSalt("");
-        shopMember.setIcon(shopMember.getIcon());
+//        shopMember.setPassword("");
+//        shopMember.setSalt("");
+//        shopMember.setIcon(shopMember.getIcon());
         model.addAttribute("member",shopMember);
         model.addAttribute("imgurl",(String) sysConfigMap.get("img_url"));
         return "shop/member/edit";

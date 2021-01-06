@@ -78,9 +78,9 @@ public class MemberServiceImpl extends ServiceImpl<MemberDao,ShopMember> impleme
         String password = ToolUtil.getMD5(shopMember.getPassword()+salts);
         shopMember.setPassword(password);
         shopMember.setSalt(salts);
-        shopMember.setBalancer(new BigDecimal(0));
-        shopMember.setIntegral(new BigDecimal(0));
-        shopMember.setCreateTime(new Date());
+//        shopMember.setBalancer(new BigDecimal(0));
+//        shopMember.setIntegral(new BigDecimal(0));
+//        shopMember.setCreateTime(new Date());
         shopMember.setInviteCode(getInviteCode(6));
         return  baseMapper.insert(shopMember);
     }
