@@ -47,4 +47,8 @@
     <select id="selectShopConfig" resultType="java.util.Map">
         select * from shop_config
     </select>
+
+    <select id="ses">
+         select * from shop_config where id =#{value}
+    </select>
 </mapper>

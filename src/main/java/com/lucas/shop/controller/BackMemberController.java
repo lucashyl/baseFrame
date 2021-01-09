@@ -74,13 +74,13 @@ public class BackMemberController extends BaseController{
     @ResponseBody
     @SysLog("新增商城会员")
     public RestResponse add(@RequestBody ShopMember shopMember){
-        if(memberService.memberCount(shopMember.getPhone())>0){
-            return RestResponse.failure("手机号已经存在");
-        }
-        memberService.saveMember(shopMember);
-        if(shopMember.getId() == null || shopMember.getId() == 0){
-            return RestResponse.failure("保存用户信息出错");
-        }
+//        if(memberService.memberCount(shopMember.getPhone())>0){
+//            return RestResponse.failure("手机号已经存在");
+//        }
+//        memberService.saveMember(shopMember);
+//        if(shopMember.getId() == null || shopMember.getId() == 0){
+//            return RestResponse.failure("保存用户信息出错");
+//        }
         return RestResponse.success();
     }
 
