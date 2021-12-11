@@ -132,8 +132,12 @@
 <!-- 移动导航 -->
 <div class="site-tree-mobile layui-hide"><i class="layui-icon">&#xe602;</i></div>
 <div class="site-mobile-shade"></div>
-
+<script>
+    var baseUrl = "${base}";
+    var language = "${language}";
+</script>
 <script type="text/javascript" src="${base}/static/layui/layui.js"></script>
+<script type="text/javascript" src="${base}/static/js/i18nLoad.js"></script>
 <script type="text/javascript" src="${base}/static/js/leftNav.js?v=2.0"></script>
 <script type="text/javascript" src="${base}/static/js/index.js?t=3.0"></script>
 </body>
