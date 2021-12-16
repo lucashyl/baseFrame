@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.lucas.admin.base.MutableHttpServletRequest;
 import com.lucas.admin.redis.RedisService;
 import com.lucas.admin.service.SiteService;
+import com.lucas.admin.util.Constants;
 import com.lucas.admin.util.JwtUtils;
 import com.lucas.admin.util.R;
 import com.lucas.admin.util.WebUtil;
@@ -86,40 +87,41 @@ public class LoginFilter implements Filter {
             WebUtil.print(servletResponse, JSONObject.toJSONString(R.error(666, "未登录")));
             return;
         }
+        redisService.setExpire(memberId, Constants.LOGIN_EXPIRE_TIME_REDIS);
         /**
          * 防止修改token后并发数据还是老token导致掉线,修改head里面token为新值
          */
-        if(!userTokenString.equals(accessTokenOld) &&redisService.hasKey(accessTokenOld) ){
-            //修改request header 成新的token
-            MutableHttpServletRequest mutableRequest = new MutableHttpServletRequest(servletRequest);
-            mutableRequest.putHeader("token",userTokenString);
-            chain.doFilter(mutableRequest,servletResponse);
-            return;
-        }
-        try {
-            UserToken userTokenOld = JwtUtils.getInfoFromToken(accessTokenOld);
-        } catch (Exception e) {//异常则不存在jwt,重新创建token
-            try {
-                if (memberService == null){
-                    BeanFactory factory = WebApplicationContextUtils.getRequiredWebApplicationContext(request.getServletContext());
-                    memberService = (MemberService) factory.getBean("memberService");
-                }
-                ShopMember shopMember  = memberService.queryMemberExistById(memberId.substring(0,memberId.length()-6));
-                String  tokenNew = memberService.JwtLogin(shopMember);
-                redisService.set(accessTokenOld,accessTokenOld,60);//防止老token删除过后无redis导致并发请求的接口掉线，60s之后过期老token
-                /**
-                 * 通知前台换token
-                 * */
-
-                //修改request header 成新的token
-                MutableHttpServletRequest mutableRequest = new MutableHttpServletRequest(servletRequest);
-                mutableRequest.putHeader("token",tokenNew);
-                chain.doFilter(mutableRequest,servletResponse);
-                return;
-            } catch (Exception e1) {
-                e1.printStackTrace();
-            }
-        }
+//        if(!userTokenString.equals(accessTokenOld) &&redisService.hasKey(accessTokenOld) ){
+//            //修改request header 成新的token
+//            MutableHttpServletRequest mutableRequest = new MutableHttpServletRequest(servletRequest);
+//            mutableRequest.putHeader("token",userTokenString);
+//            chain.doFilter(mutableRequest,servletResponse);
+//            return;
+//        }
+//        try {
+//            UserToken userTokenOld = JwtUtils.getInfoFromToken(accessTokenOld);
+//        } catch (Exception e) {//异常则不存在jwt,重新创建token
+//            try {
+//                if (memberService == null){
+//                    BeanFactory factory = WebApplicationContextUtils.getRequiredWebApplicationContext(request.getServletContext());
+//                    memberService = (MemberService) factory.getBean("memberService");
+//                }
+//                ShopMember shopMember  = memberService.queryMemberExistById(memberId.substring(0,memberId.length()-6));
+//                String  tokenNew = memberService.JwtLogin(shopMember);
+//                redisService.set(accessTokenOld,accessTokenOld,60);//防止老token删除过后无redis导致并发请求的接口掉线，60s之后过期老token
+//                /**
+//                 * 通知前台换token
+//                 * */
+//
+//                //修改request header 成新的token
+//                MutableHttpServletRequest mutableRequest = new MutableHttpServletRequest(servletRequest);
+//                mutableRequest.putHeader("token",tokenNew);
+//                chain.doFilter(mutableRequest,servletResponse);
+//                return;
+//            } catch (Exception e1) {
+//                e1.printStackTrace();
+//            }
+//        }
         chain.doFilter(servletRequest, servletResponse);
         return;
     }
