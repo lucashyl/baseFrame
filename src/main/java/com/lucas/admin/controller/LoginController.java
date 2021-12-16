@@ -57,14 +57,14 @@ public class LoginController extends BaseController {
 	public RestResponse loginMain(HttpServletRequest request) {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		String rememberMe = request.getParameter("rememberMe");
-		String code = request.getParameter("code");
+//		String rememberMe = request.getParameter("rememberMe");
+//		String code = request.getParameter("code");
 		if(StringUtils.isBlank(username) || StringUtils.isBlank(password)){
 			return RestResponse.failure("用户名或者密码不能为空");
 		}
-		if(StringUtils.isBlank(rememberMe)){
-			return RestResponse.failure("记住我不能为空");
-		}
+//		if(StringUtils.isBlank(rememberMe)){
+//			return RestResponse.failure("记住我不能为空");
+//		}
 //		if(StringUtils.isBlank(code)){
 //			return  RestResponse.failure("验证码不能为空");
 //		}
@@ -83,7 +83,7 @@ public class LoginController extends BaseController {
 //		}else {
 			/*就是代表当前的用户。*/
 			Subject user = SecurityUtils.getSubject();
-			UsernamePasswordToken token = new UsernamePasswordToken(username,password,Boolean.valueOf(rememberMe));
+			UsernamePasswordToken token = new UsernamePasswordToken(username,password,false);
 			try {
 				user.login(token);
 				if (user.isAuthenticated()) {
